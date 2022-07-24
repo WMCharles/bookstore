@@ -21,7 +21,7 @@ hr {
     width: 90%;
     margin: 1em auto;
     padding: .8em;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .books-1 {
@@ -64,4 +64,37 @@ hr {
 .book-image > img {
     width: 100%;
     align-items: center;
+}
+
+.blogs {
+    width: 90%;
+    margin: 1rem auto;
+    /* border: 1px solid black; */
+}
+
+.blog {
+    display: flex;
+    flex-direction: row;
+    padding: .5em;
+    margin-bottom: 1em;
+    border: 1px solid black;
+}
+
+.blogs-1 {
+    display: flex;
+}
+
+.blog > div {
+    border: 1px solid black;
+    margin-right: .5em;
+}
+
+.blog-image img {
+    flex: 30%;
+    width: 100%;
+}
+
+.blog-content {
+    font-size: .8em;
+    padding: .5em;
 }
