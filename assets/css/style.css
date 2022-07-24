@@ -21,7 +21,6 @@ hr {
     width: 90%;
     margin: 1em auto;
     padding: .8em;
-    /* border: 1px solid black; */
 }
 
 .books-1 {
@@ -32,7 +31,6 @@ hr {
 
 .books-1 > div {
     flex: 23%;
-    /* margin-right: .5em; */
     border: 1px solid black;
     padding: .5em;
 }
@@ -68,8 +66,7 @@ hr {
 
 .blogs {
     width: 90%;
-    margin: 1rem auto;
-    /* border: 1px solid black; */
+    margin: 3em auto;
 }
 
 .blog {
@@ -84,17 +81,21 @@ hr {
     display: flex;
 }
 
+.blogs-1 > div {
+    flex: 50%;
+    justify-content: space-between;
+}
+
 .blog > div {
     border: 1px solid black;
     margin-right: .5em;
 }
 
-.blog-image img {
+.blog-image img{
     flex: 30%;
     width: 100%;
 }
 
 .blog-content {
-    font-size: .8em;
-    padding: .5em;
+    padding: .5em ;
 }
