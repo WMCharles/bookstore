@@ -127,3 +127,35 @@ hr {
 #button {
     padding: 0.7em;
 }
+
+.footer {
+    padding: 2em;
+    border: 1px solid black;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    padding: 1.5em;
+    border: 1px solid black;
+}
+
+.logo {
+    position: relative;
+}
+
+#logo-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer-end {
+    width: 90%;
+    margin: auto;
+    padding: 1.5em;
+    border: 1px solid black;
+}
